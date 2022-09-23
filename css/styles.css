@@ -3,20 +3,32 @@
   src: url("./fonts/Poppins/Poppins-Medium.ttf");
 }
 
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: "Poppins";
+  line-height: 1.5;
   color: white;
   background-color: rgb(33, 33, 33);
+  margin: 0.2em 2em;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+h1,
+h2,
+strong {
+  margin: 20px 0;
+}
+
+img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
 }
 
 nav a {
@@ -26,4 +38,22 @@ nav a {
 a {
   text-decoration: none;
   color: #f89e58;
+}
+
+ul {
+  margin: 15px 0;
+  list-style: none;
+}
+
+#social li,
+#skills li {
+  display: inline;
+  margin-right: 5px;
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+.bio {
+  width: 60%;
+  text-align: justify;
 }
