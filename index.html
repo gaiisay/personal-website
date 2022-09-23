@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Gai Isay</title>
   </head>
   <body>
     <header>
       <h1>Gai</h1>
-      <nav>
+      <nav class=".navbar__menu">
         <a href="#aboutme">About Me</a>
         <a href="#social">Social</a>
         <a href="#skills">Skills</a>
@@ -17,26 +18,23 @@
       </nav>
     </header>
     <main>
-      <img
-        src="profile_picture.jpeg"
-        alt="profile picture"
-        width="360"
-        height="480"
-      />
-      <section id="aboutme">
-        <h2>Hi, I'm Gai</h2>
-        <strong>Web Developer</strong>
-        <p>
-          I am a former QA engineer who is currently attending a Web Development
-          Bootcamp
-          <a href="https://www.neuefische.de/en">@NeueFische</a>.
-          <br />
-          I have experience in test automation and manual testing and worked
-          with Playwright, Selenium and Cucumber. <br />
-          To find out more please keep scrolling <span>👇🏼</span>
-        </p>
+      <section id="aboutme" class="section__wrapper">
+        <img src="./assets/profile_picture.jpeg" alt="profile picture" />
+        <article class="bio">
+          <h2>Hi, I'm Gai</h2>
+          <strong>Web Developer</strong>
+          <p>
+            I am a former QA engineer who is currently attending a Web
+            Development Bootcamp
+            <a href="https://www.neuefische.de/en">@NeueFische</a>.
+            <br />
+            I have experience in test automation and manual testing and worked
+            with Playwright, Selenium and Cucumber. <br />
+            To find out more please keep scrolling <span>👇🏼</span>
+          </p>
+        </article>
       </section>
-      <section id="social">
+      <section id="social" class="section__wrapper">
         <h2>Social</h2>
         <ul>
           <li>
@@ -48,7 +46,7 @@
           <li><a href="mailto:gaiisay04@gmail.com">E-Mail</a></li>
         </ul>
       </section>
-      <section id="skills">
+      <section id="skills" class="section-wrapper">
         <h2>Skills</h2>
         <strong>Currently learning</strong>
         <ul>
@@ -76,7 +74,7 @@
       <section id="experience">
         <h2>Experience</h2>
         <article id="work-experience">
-          <h3>Work</h3>
+          <h3><span>🧑🏽‍💻</span> Work</h3>
           <strong>Junior Agile Tester - tts Knowledge Products GmbH</strong>
           <p>November 2019 - Juni 2022</p>
           <p>
@@ -96,7 +94,7 @@
           </ul>
         </article>
         <article id="education">
-          <h3>Education</h3>
+          <h3><span>🧑🏽‍🎓</span> Education</h3>
           <strong>Web Development Bootcamp - NeueFische</strong>
           <p>September 2022 - December 2022</p>
           <ul>
@@ -107,7 +105,6 @@
             </li>
             <li><strong>Capstone Project:</strong> ...</li>
           </ul>
-          <hr />
           <strong>Bachelor of Science - Rheinische Fachhochschule Köln</strong>
           <p>September 2014 - August 2017</p>
           <p>Business Information Management</p>
