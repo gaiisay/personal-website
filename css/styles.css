@@ -86,6 +86,7 @@ nav {
   border-radius: 10px;
   padding: 50px;
   margin: 10px;
+  scroll-margin-top: 10px;
 }
 
 .section-content {
@@ -122,6 +123,7 @@ nav {
 
 .subtitle {
   font-size: 3rem;
+  margin-top: -1rem;
   text-align: center;
 }
 
