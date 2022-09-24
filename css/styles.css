@@ -107,16 +107,19 @@ nav {
   text-align: center;
   line-height: 1;
   margin-top: -0.8em;
-  /* transform: translateX(10%); */
+}
+
+.translation {
+  margin-top: -1.5rem;
+  font-size: 0.8rem;
 }
 
 .subtitle {
   font-size: 3rem;
   text-align: center;
-  /* transform: translate(3%, -50%); */
 }
 
-.hero-section p {
+.subtitle ~ p {
   font-size: 1.2rem;
 }
 
