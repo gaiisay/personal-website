@@ -9,35 +9,39 @@
   </head>
   <body>
     <header>
-      <h1>Gai</h1>
-      <nav class=".navbar__menu">
-        <a href="#aboutme">About Me</a>
-        <a href="#social">Social</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
+      <nav class=".menu">
+        <a class="nav-link" href="#aboutme">About Me</a>
+        <a class="nav-link" href="#social">Social</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#experience">Experience</a>
       </nav>
     </header>
     <main>
-      <section id="aboutme" class="section__wrapper">
-        <img src="./assets/profile_picture.jpeg" alt="profile picture" />
-        <article class="bio">
-          <h2>Hi, I'm Gai</h2>
-          <strong>Web Developer</strong>
-          <p>
-            I am a former QA engineer who is currently attending a Web
-            Development Bootcamp
-            <a href="https://www.neuefische.de/en">@NeueFische</a>.
-            <br />
-            I have experience in test automation and manual testing and worked
-            with Playwright, Selenium and Cucumber. <br />
-            To find out more please keep scrolling <span>👇🏼</span>
-          </p>
-        </article>
+      <section class="hero-section section-card">
+        <h1 class="hebrew-welcome-text">שלום</h1>
+        <h2 class="subtitle">Shalom, my name is Gai.</h2>
+        <p>Web Developer</p>
+      </section>
+      <section id="aboutme">
+        <div class="image-wrapper">
+          <img src="./assets/profile_picture.jpeg" alt="profile picture" />
+        </div>
+        <h2>Hi, I'm Gai</h2>
+        <strong>Web Developer</strong>
+        <p>
+          I am a former QA engineer who is currently attending a Web Development Bootcamp
+          <a href="https://www.neuefische.de/en">@NeueFische</a>.
+          <br />
+          I have experience in test automation and manual testing and worked with Playwright,
+          Selenium and Cucumber. <br />
+          To find out more please keep scrolling <span>👇🏼</span>
+        </p>
       </section>
       <section id="social" class="section__wrapper">
         <h2>Social</h2>
         <ul>
           <li>
+            <a class="resume-button" href="./assets/resume.pdf" target="_blank">Resume</a>
             <a href="https://github.com/gaiisay" target="_blank">GitHub</a>
           </li>
           <li>
@@ -78,18 +82,17 @@
           <strong>Junior Agile Tester - tts Knowledge Products GmbH</strong>
           <p>November 2019 - Juni 2022</p>
           <p>
-            tts is a leading technology company in the field of HR Consulting
-            and Corporate Learning.
+            tts is a leading technology company in the field of HR Consulting and Corporate
+            Learning.
           </p>
           <ul>
             <li>Creating and executing test cases.</li>
             <li>
-              Designed and implemented test automation using Selenium, Cucumber
-              and Playwright.
+              Designed and implemented test automation using Selenium, Cucumber and Playwright.
             </li>
             <li>
-              Independent and autonomous planning and implementation of measures
-              to improve the software quality.
+              Independent and autonomous planning and implementation of measures to improve the
+              software quality.
             </li>
           </ul>
         </article>
@@ -99,9 +102,8 @@
           <p>September 2022 - December 2022</p>
           <ul>
             <li>
-              <strong>Tech Stack:</strong> HTML, CSS JavaScript, React, Vite,
-              Next, MongoDB, Scrum & Kanban, Pair Programming, Node.js, Express,
-              Figma, NoSQL, Git, REST
+              <strong>Tech Stack:</strong> HTML, CSS JavaScript, React, Vite, Next, MongoDB, Scrum &
+              Kanban, Pair Programming, Node.js, Express, Figma, NoSQL, Git, REST
             </li>
             <li><strong>Capstone Project:</strong> ...</li>
           </ul>
@@ -110,8 +112,8 @@
           <p>Business Information Management</p>
           <ul>
             <li>
-              <strong>Bachelor Thesis:</strong> : Evaluation von Strategien für
-              die Entwicklung mobiler Applikationen in digitalen Ökosystemen
+              <strong>Bachelor Thesis:</strong> : Evaluation von Strategien für die Entwicklung
+              mobiler Applikationen in digitalen Ökosystemen
             </li>
             <li><strong>Minored in:</strong> Digital Business</li>
           </ul>
