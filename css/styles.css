@@ -10,6 +10,12 @@
   font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: "Rubik Moonrocks";
+  src: url(./fonts/Rubik_Moonrocks/RubikMoonrocks-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
 
 *,
 *::after,
@@ -23,12 +29,12 @@ body {
   font-family: "Poppins";
   line-height: 1.5;
   color: white;
-  background-color: #f89e58;
+  background-color: #ff8527;
   padding: 10px;
 }
 
 header {
-  background-color: rgba(164, 164, 164, 0.7);
+  background-color: rgba(75, 75, 75, 0.7);
   position: fixed;
   bottom: 10%;
   left: 50%;
@@ -50,17 +56,25 @@ nav {
   background-color: rgb(33, 33, 33);
   border-radius: 10px;
   padding: 50px;
+  margin-bottom: 20px;
+}
+
+.hero-section {
+  font-family: "Rubik Moonrocks";
+  text-align: center;
 }
 
 .hebrew-welcome-text {
-  font-size: 12rem;
+  font-size: 14rem;
   direction: rtl;
   text-align: center;
+  line-height: 1;
+  margin-top: 3rem;
   /* transform: translateX(10%); */
 }
 
 .subtitle {
-  font-size: 1.5rem;
+  font-size: 3rem;
   text-align: center;
   /* transform: translate(3%, -50%); */
 }
@@ -94,7 +108,7 @@ img {
 
 a {
   text-decoration: none;
-  color: #f89e58;
+  color: #ff8527;
   padding: 10px;
 }
 
