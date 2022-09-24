@@ -25,15 +25,46 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins";
   line-height: 1.5;
   color: white;
   background-color: #ff8527;
+}
+
+.social-links {
+  width: 40px;
+  position: fixed;
+  bottom: 10px;
+  left: 40px;
+  right: auto;
+  z-index: 10;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.link-list a {
+  display: inline-block;
   padding: 10px;
 }
 
-header {
+.link-list a svg {
+  width: 20px;
+  height: 20px;
+}
+
+nav {
   background-color: rgba(75, 75, 75, 0.7);
   position: fixed;
   bottom: 10%;
@@ -41,8 +72,6 @@ header {
   transform: translateX(-50%);
   border-radius: 10px;
   z-index: 10;
-}
-nav {
   display: flex;
   justify-content: space-between;
 }
@@ -51,17 +80,25 @@ nav {
   position: relative;
   top: 0;
   left: 0;
-  width: 100%;
+  width: calc(100vw - 35px);
   height: calc(100vh - 20px);
   background-color: rgb(33, 33, 33);
   border-radius: 10px;
   padding: 50px;
-  margin-bottom: 20px;
+  margin: 10px;
+}
+
+.section-content {
+  max-width: 80%;
 }
 
 .hero-section {
   font-family: "Rubik Moonrocks";
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hebrew-welcome-text {
@@ -69,7 +106,7 @@ nav {
   direction: rtl;
   text-align: center;
   line-height: 1;
-  margin-top: 3rem;
+  margin-top: -0.8em;
   /* transform: translateX(10%); */
 }
 
@@ -77,6 +114,10 @@ nav {
   font-size: 3rem;
   text-align: center;
   /* transform: translate(3%, -50%); */
+}
+
+.hero-section p {
+  font-size: 1.2rem;
 }
 
 img {
