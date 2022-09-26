@@ -9,87 +9,147 @@
   </head>
   <body>
     <header>
-      <h1>Gai</h1>
-      <nav class=".navbar__menu">
-        <a href="#aboutme">About Me</a>
-        <a href="#social">Social</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
+      <nav class=".menu">
+        <a class="nav-link" href="#welcome">Home</a>
+        <a class="nav-link" href="#aboutme">About Me</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#projects">Projects</a>
       </nav>
+      <div class="social-links">
+        <ul class="link-list">
+          <li>
+            <a href="./assets/resume.pdf" target="_blank">
+              <svg viewBox="0 0 82 109" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M13.6 0H51V6.8H13.6C11.7965 6.8 10.0669 7.51643 8.79167 8.79167C7.51643 10.0669 6.8 11.7965 6.8 13.6V95.2C6.8 97.0035 7.51643 98.7331 8.79167 100.008C10.0669 101.284 11.7965 102 13.6 102H68C69.8035 102 71.5331 101.284 72.8083 100.008C74.0836 98.7331 74.8 97.0035 74.8 95.2V30.6H81.6V95.2C81.6 98.8069 80.1671 102.266 77.6166 104.817C75.0662 107.367 71.6069 108.8 68 108.8H13.6C9.99306 108.8 6.53384 107.367 3.98335 104.817C1.43285 102.266 0 98.8069 0 95.2V13.6C0 9.99306 1.43285 6.53384 3.98335 3.98335C6.53384 1.43285 9.99306 0 13.6 0V0Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M51 20.4V0L81.6 30.6H61.2C58.4948 30.6 55.9004 29.5254 53.9875 27.6125C52.0746 25.6996 51 23.1052 51 20.4V20.4Z"
+                  fill="currentColor"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M40.8 74.8C46.2104 74.8 51.3992 72.6507 55.225 68.825C59.0507 64.9992 61.2 59.8104 61.2 54.4C61.2 48.9896 59.0507 43.8008 55.225 39.975C51.3992 36.1493 46.2104 34 40.8 34C35.3896 34 30.2008 36.1493 26.375 39.975C22.5493 43.8008 20.4 48.9896 20.4 54.4C20.4 59.8104 22.5493 64.9992 26.375 68.825C30.2008 72.6507 35.3896 74.8 40.8 74.8V74.8Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M40.8 81.6C68 81.6 74.8 93.534 74.8 93.534V95.2C74.8 97.0035 74.0836 98.7331 72.8083 100.008C71.5331 101.284 69.8035 102 68 102H13.6C11.7965 102 10.0669 101.284 8.79167 100.008C7.51643 98.7331 6.8 97.0035 6.8 95.2V93.534C6.8 93.534 13.6 81.6 40.8 81.6Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+            <a href="https://github.com/gaiisay" aria-label="GitHub" target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-github"
+              >
+                <title>GitHub</title>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/" target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-linkedin"
+              >
+                <title>LinkedIn</title>
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                ></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:gaiisay04@gmail.com">
+              <svg viewBox="0 0 82 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0 10.2C0 7.49479 1.07464 4.90038 2.98751 2.98751C4.90038 1.07464 7.49479 0 10.2 0H71.4C74.1052 0 76.6996 1.07464 78.6125 2.98751C80.5254 4.90038 81.6 7.49479 81.6 10.2V51C81.6 53.7052 80.5254 56.2996 78.6125 58.2125C76.6996 60.1254 74.1052 61.2 71.4 61.2H10.2C7.49479 61.2 4.90038 60.1254 2.98751 58.2125C1.07464 56.2996 0 53.7052 0 51V10.2ZM10.2 5.1C8.8474 5.1 7.55019 5.63732 6.59376 6.59376C5.63732 7.55019 5.1 8.8474 5.1 10.2V11.3067L40.8 32.7267L76.5 11.3067V10.2C76.5 8.8474 75.9627 7.55019 75.0062 6.59376C74.0498 5.63732 72.7526 5.1 71.4 5.1H10.2ZM76.5 17.2533L52.2342 31.8138L76.5 46.4814V17.2584V17.2533ZM76.3266 52.3311L47.2821 34.782L40.8 38.6733L34.3128 34.782L5.2734 52.326C5.56511 53.4094 6.20593 54.3663 7.09659 55.0486C7.98725 55.7309 9.07804 56.1004 10.2 56.1H71.4C72.5213 56.1007 73.6116 55.7319 74.5021 55.0506C75.3927 54.3693 76.0339 53.4135 76.3266 52.3311V52.3311ZM5.1 46.4814L29.3658 31.8138L5.1 17.2533V46.4763V46.4814Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
-      <section id="aboutme" class="section__wrapper">
-        <img src="./assets/profile_picture.jpeg" alt="profile picture" />
-        <article class="bio">
-          <h2>Hi, I'm Gai</h2>
-          <strong>Web Developer</strong>
-          <p>
-            I am a former QA engineer who is currently attending a Web
-            Development Bootcamp
-            <a href="https://www.neuefische.de/en">@NeueFische</a>.
-            <br />
-            I have experience in test automation and manual testing and worked
-            with Playwright, Selenium and Cucumber. <br />
-            To find out more please keep scrolling <span>👇🏼</span>
-          </p>
-        </article>
+      <section id="welcome" class="hero-section section-card">
+        <h1 class="hebrew-welcome-text">שלום</h1>
+        <p class="translation">[Shalom]</p>
+        <h2 class="subtitle">My name is Gai.</h2>
+        <p>I am currently learning to do cool stuff in the web.</p>
       </section>
-      <section id="social" class="section__wrapper">
-        <h2>Social</h2>
-        <ul>
-          <li>
-            <a href="https://github.com/gaiisay" target="_blank">GitHub</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-          </li>
-          <li><a href="mailto:gaiisay04@gmail.com">E-Mail</a></li>
-        </ul>
+      <section id="aboutme" class="about-section section-card">
+        <div class="section-content">
+          <article class="aboutme-article">
+            <h2 class="title">About Me</h2>
+            <p>
+              Hello, my name is Gai and I am a former QA engineer. After watching the developers at
+              my last job for over 2 years I decided that I can't watch and test anymore but want to
+              be a Web Developer myself. I quit my job and started the Web Development Bootcamp
+              <a href="https://www.neuefische.de/en">@NeueFische</a>.
+            </p>
+            <p>
+              Now I am learning to do some cool stuff in the web using some of the following
+              technologies:
+            </p>
+            <ul class="skills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>NodeJS</li>
+              <li>ExpressJS</li>
+              <li>MongoDB</li>
+            </ul>
+          </article>
+          <div class="image-wrapper">
+            <img src="./assets/profile_picture.jpeg" alt="profile picture" />
+          </div>
+        </div>
       </section>
-      <section id="skills" class="section-wrapper">
-        <h2>Skills</h2>
-        <strong>Currently learning</strong>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>NodeJS</li>
-          <li>ExpressJS</li>
-          <li>MongoDB</li>
-        </ul>
-        <strong>Previously worked with</strong>
-        <ul>
-          <li>Java</li>
-          <li>Selenium</li>
-          <li>Cucumber</li>
-          <li>Git</li>
-          <li>Playwright</li>
-        </ul>
-        <strong>Mastered skills</strong>
-        <ul>
-          <li>Basketball</li>
-        </ul>
-      </section>
-      <section id="experience">
+      <section id="experience" class="section-card">
         <h2>Experience</h2>
         <article id="work-experience">
           <h3><span>🧑🏽‍💻</span> Work</h3>
           <strong>Junior Agile Tester - tts Knowledge Products GmbH</strong>
           <p>November 2019 - Juni 2022</p>
           <p>
-            tts is a leading technology company in the field of HR Consulting
-            and Corporate Learning.
+            tts is a leading technology company in the field of HR Consulting and Corporate
+            Learning.
           </p>
           <ul>
             <li>Creating and executing test cases.</li>
             <li>
-              Designed and implemented test automation using Selenium, Cucumber
-              and Playwright.
+              Designed and implemented test automation using Selenium, Cucumber and Playwright.
             </li>
             <li>
-              Independent and autonomous planning and implementation of measures
-              to improve the software quality.
+              Independent and autonomous planning and implementation of measures to improve the
+              software quality.
             </li>
           </ul>
         </article>
@@ -99,9 +159,8 @@
           <p>September 2022 - December 2022</p>
           <ul>
             <li>
-              <strong>Tech Stack:</strong> HTML, CSS JavaScript, React, Vite,
-              Next, MongoDB, Scrum & Kanban, Pair Programming, Node.js, Express,
-              Figma, NoSQL, Git, REST
+              <strong>Tech Stack:</strong> HTML, CSS JavaScript, React, Vite, Next, MongoDB, Scrum &
+              Kanban, Pair Programming, Node.js, Express, Figma, NoSQL, Git, REST
             </li>
             <li><strong>Capstone Project:</strong> ...</li>
           </ul>
@@ -110,13 +169,14 @@
           <p>Business Information Management</p>
           <ul>
             <li>
-              <strong>Bachelor Thesis:</strong> : Evaluation von Strategien für
-              die Entwicklung mobiler Applikationen in digitalen Ökosystemen
+              <strong>Bachelor Thesis:</strong> : Evaluation von Strategien für die Entwicklung
+              mobiler Applikationen in digitalen Ökosystemen
             </li>
             <li><strong>Minored in:</strong> Digital Business</li>
           </ul>
         </article>
       </section>
+      <section id="projects" class="section-card"></section>
     </main>
     <footer>
       <a href="#">Terms and Privacy</a>
