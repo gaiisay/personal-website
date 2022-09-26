@@ -12,8 +12,8 @@
       <nav class=".menu">
         <a class="nav-link" href="#welcome">Home</a>
         <a class="nav-link" href="#aboutme">About Me</a>
-        <a class="nav-link" href="#skills">Skills</a>
         <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#projects">Projects</a>
       </nav>
       <div class="social-links">
         <ul class="link-list">
@@ -98,52 +98,37 @@
     </header>
     <main>
       <section id="welcome" class="hero-section section-card">
-        <div class="section-content">
-          <h1 class="hebrew-welcome-text">שלום</h1>
-          <p class="translation">[Shalom]</p>
-          <h2 class="subtitle">My name is Gai.</h2>
-          <p>I am currently learning to do cool stuff in the web.</p>
-        </div>
+        <h1 class="hebrew-welcome-text">שלום</h1>
+        <p class="translation">[Shalom]</p>
+        <h2 class="subtitle">My name is Gai.</h2>
+        <p>I am currently learning to do cool stuff in the web.</p>
       </section>
-      <section id="aboutme" class="section-card">
+      <section id="aboutme" class="about-section section-card">
+        <article class="aboutme-article">
+          <h2 class="title">About Me</h2>
+          <p>
+            Hello, my name is Gai and I am a former QA engineer. After watching the developers at my
+            last job for over 2 years I decided that I can't watch and test anymore but want to be a
+            Web Developer myself. I quit my job and started the Web Development Bootcamp
+            <a href="https://www.neuefische.de/en">@NeueFische</a>.
+          </p>
+          <p>
+            Now I am learning to do some cool stuff in the web using some of the following
+            technologies:
+          </p>
+          <ul class="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>NodeJS</li>
+            <li>ExpressJS</li>
+            <li>MongoDB</li>
+          </ul>
+        </article>
         <div class="image-wrapper">
           <img src="./assets/profile_picture.jpeg" alt="profile picture" />
         </div>
-        <h2>Hi, I'm Gai</h2>
-        <strong>Web Developer</strong>
-        <p>
-          I am a former QA engineer who is currently attending a Web Development Bootcamp
-          <a href="https://www.neuefische.de/en">@NeueFische</a>.
-          <br />
-          I have experience in test automation and manual testing and worked with Playwright,
-          Selenium and Cucumber. <br />
-          To find out more please keep scrolling <span>👇🏼</span>
-        </p>
-      </section>
-      <section id="skills" class="section-card">
-        <h2>Skills</h2>
-        <strong>Currently learning</strong>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>NodeJS</li>
-          <li>ExpressJS</li>
-          <li>MongoDB</li>
-        </ul>
-        <strong>Previously worked with</strong>
-        <ul>
-          <li>Java</li>
-          <li>Selenium</li>
-          <li>Cucumber</li>
-          <li>Git</li>
-          <li>Playwright</li>
-        </ul>
-        <strong>Mastered skills</strong>
-        <ul>
-          <li>Basketball</li>
-        </ul>
       </section>
       <section id="experience" class="section-card">
         <h2>Experience</h2>
@@ -189,6 +174,7 @@
           </ul>
         </article>
       </section>
+      <section id="projects" class="section-card"></section>
     </main>
     <footer>
       <a href="#">Terms and Privacy</a>

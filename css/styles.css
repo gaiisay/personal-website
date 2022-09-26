@@ -43,6 +43,7 @@ body {
   left: 40px;
   right: auto;
   z-index: 10;
+  z-index: 100;
 }
 
 .link-list {
@@ -64,6 +65,15 @@ body {
   height: 20px;
 }
 
+.link-list::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: #ff8527;
+}
+
 nav {
   background-color: rgba(75, 75, 75, 0.7);
   position: fixed;
@@ -71,7 +81,7 @@ nav {
   left: 50%;
   transform: translateX(-50%);
   border-radius: 10px;
-  z-index: 10;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
 }
@@ -84,26 +94,40 @@ nav {
   height: calc(100vh - 20px);
   background-color: rgb(33, 33, 33);
   border-radius: 10px;
-  padding: 50px;
+  padding: 50px 100px;
   margin: 10px;
   scroll-margin-top: 10px;
-}
-
-.section-content {
-  max-width: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  z-index: 10;
 }
 
 .hero-section {
   font-family: "Rubik Moonrocks";
-  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  text-align: ;
+}
+
+.aboutme-article {
+  width: 450px;
+}
+
+.skills {
+  margin-top: 2em;
+  height: 7em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
 }
 
 .hebrew-welcome-text {
@@ -116,8 +140,7 @@ nav {
 
 .translation {
   color: black;
-  align-self: flex-start;
-  transform: translate(1.6rem, -3.5rem);
+  transform: translate(-11.7rem, -3.5rem);
   font-size: 1.2rem;
 }
 
@@ -131,10 +154,17 @@ nav {
   font-size: 1.2rem;
 }
 
+.title {
+  font-family: "Rubik Moonrocks";
+  margin-top: ;
+  margin-bottom: 20px;
+}
+
 img {
   border-radius: 5px;
   width: 300px;
   height: 300px;
+  z-index: 20;
 }
 
 .image-wrapper {
@@ -156,12 +186,12 @@ img {
 
 .nav-link {
   margin: 0 20px;
+  padding: 10px;
 }
 
 a {
   text-decoration: none;
   color: #ff8527;
-  padding: 10px;
 }
 
 .nav-link:hover {
