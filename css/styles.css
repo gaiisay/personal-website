@@ -86,6 +86,11 @@ nav {
   justify-content: space-between;
 }
 
+.nav-link:hover {
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
 .section-card {
   position: relative;
   top: 0;
@@ -98,6 +103,13 @@ nav {
   margin: 10px;
   scroll-margin-top: 10px;
   z-index: 10;
+}
+
+.section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
 .hero-section {
@@ -113,7 +125,6 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 40px;
-  text-align: ;
 }
 
 .aboutme-article {
@@ -127,7 +138,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-  list-style: none;
+  margin-left: 1em;
 }
 
 .hebrew-welcome-text {
@@ -156,7 +167,6 @@ nav {
 
 .title {
   font-family: "Rubik Moonrocks";
-  margin-top: ;
   margin-bottom: 20px;
 }
 
@@ -192,9 +202,4 @@ img {
 a {
   text-decoration: none;
   color: #ff8527;
-}
-
-.nav-link:hover {
-  font-weight: bold;
-  transition: all 0.2s ease;
 }
