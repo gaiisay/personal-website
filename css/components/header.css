@@ -1,0 +1,14 @@
+.header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo,
+.header__burger-menu,
+.header__close-menu {
+  width: 40px;
+  height: 40px;
+}

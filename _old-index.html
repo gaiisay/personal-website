@@ -5,52 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="./js/index.js" defer></script>
     <title>Gai Isay</title>
   </head>
   <body>
-    </section>
-    <header class="header">
-      <img class="header__logo" src="./assets/Memoji.png" alt="website logo" />
-
-      <svg
-        class="header__burger-menu"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="w-6 h-6"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
-        />
-      </svg>
-      <svg
-        class="header__close-menu"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="w-6 h-6"
-      >
-        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-      </svg>
-      <nav class="nav">
-        <a class="nav__link" href="#welcome">Home</a>
-        <a class="nav__link" href="#aboutme">About Me</a>
-        <a class="nav__link" href="#experience">Experience</a>
-        <a class="nav__link" href="#projects">Projects</a>
+    <div class="loader">
+      <img
+        src="./assets/sports_basketball_FILL0_wght400_GRAD0_opsz48.svg"
+        alt="Bouncing Basketball"
+        class="ball"
+      />
+      <div class="shadow"></div>
+    </div>
+    <header>
+      <nav class=".menu">
+        <a class="nav-link" href="#welcome">Home</a>
+        <a class="nav-link" href="#aboutme">About Me</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#projects">Projects</a>
       </nav>
-    </header>
-    <main>
-      <section class="social">
-        <ul class="social__list">
+      <div class="social-links">
+        <ul class="link-list">
           <li>
-            <a class="social__list__item" href="./assets/resume.pdf" target="_blank">
+            <a href="./assets/resume.pdf" target="_blank">
               <svg viewBox="0 0 82 109" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M13.6 0H51V6.8H13.6C11.7965 6.8 10.0669 7.51643 8.79167 8.79167C7.51643 10.0669 6.8 11.7965 6.8 13.6V95.2C6.8 97.0035 7.51643 98.7331 8.79167 100.008C10.0669 101.284 11.7965 102 13.6 102H68C69.8035 102 71.5331 101.284 72.8083 100.008C74.0836 98.7331 74.8 97.0035 74.8 95.2V30.6H81.6V95.2C81.6 98.8069 80.1671 102.266 77.6166 104.817C75.0662 107.367 71.6069 108.8 68 108.8H13.6C9.99306 108.8 6.53384 107.367 3.98335 104.817C1.43285 102.266 0 98.8069 0 95.2V13.6C0 9.99306 1.43285 6.53384 3.98335 3.98335C6.53384 1.43285 9.99306 0 13.6 0V0Z"
@@ -72,11 +48,7 @@
                 />
               </svg>
             </a>
-            <a
-              class="social__list__item"
-              href="https://github.com/gaiisay"
-              aria-label="GitHub"
-              target="_blank"
+            <a href="https://github.com/gaiisay" aria-label="GitHub" target="_blank"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
@@ -96,11 +68,7 @@
             </a>
           </li>
           <li>
-            <a
-              class="social__list__item"
-              href="https://www.linkedin.com/in/gai-isay-639884139/"
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/gai-isay-639884139/" target="_blank">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
@@ -122,7 +90,7 @@
             </a>
           </li>
           <li>
-            <a class="social__list__item" href="mailto:gaiisay04@gmail.com">
+            <a href="mailto:gaiisay04@gmail.com">
               <svg viewBox="0 0 82 62" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   fill-rule="evenodd"
@@ -134,16 +102,19 @@
             </a>
           </li>
         </ul>
-      </section>
-      <section id="welcome" class="hero">
-        <h1 class="hero__title">שלום</h1>
-        <p class="hero__title-translation">[Shalom]</p>
-        <h2 class="hero__subtitle">My name is Gai.</h2>
+      </div>
+    </header>
+    <main>
+      <section id="welcome" class="hero-section section-card">
+        <h1 class="hebrew-welcome-text">שלום</h1>
+        <p class="translation">[Shalom]</p>
+        <h2 class="subtitle">My name is Gai.</h2>
         <p>I am currently learning to do cool stuff in the web.</p>
       </section>
-      <section id="aboutme" class="about">
-          <article class="about__article">
-            <h2 class="about__article-title">About Me</h2>
+      <section id="aboutme" class="about-section section-card">
+        <div class="section-content">
+          <article class="aboutme-article">
+            <h2 class="title">About Me</h2>
             <p>
               Hello, my name is Gai and I am a former QA engineer. After watching the developers at
               my last job for over 2 years I decided that I can't watch and test anymore but want to
@@ -154,7 +125,7 @@
               Now I am learning to do some cool stuff in the web using some of the following
               technologies:
             </p>
-            <ul class="about__article-list">
+            <ul class="skills">
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
@@ -164,12 +135,61 @@
               <li>MongoDB</li>
             </ul>
           </article>
-          <div class="about__image-wrapper">
-            <img class="about__image" src="./assets/profile_picture.jpeg" alt="profile picture" />
+          <div class="image-wrapper">
+            <img src="./assets/profile_picture.jpeg" alt="profile picture" />
           </div>
+        </div>
       </section>
-      <section id="projects" class="projects"></section>
+      <section id="experience" class="section-card">
+        <h2>Experience</h2>
+        <article id="work-experience">
+          <h3><span>🧑🏽‍💻</span> Work</h3>
+          <strong>Junior Agile Tester - tts Knowledge Products GmbH</strong>
+          <p>November 2019 - Juni 2022</p>
+          <p>
+            tts is a leading technology company in the field of HR Consulting and Corporate
+            Learning.
+          </p>
+          <ul>
+            <li>Creating and executing test cases.</li>
+            <li>
+              Designed and implemented test automation using Selenium, Cucumber and Playwright.
+            </li>
+            <li>
+              Independent and autonomous planning and implementation of measures to improve the
+              software quality.
+            </li>
+          </ul>
+        </article>
+        <article id="education">
+          <h3><span>🧑🏽‍🎓</span> Education</h3>
+          <strong>Web Development Bootcamp - NeueFische</strong>
+          <p>September 2022 - December 2022</p>
+          <ul>
+            <li>
+              <strong>Tech Stack:</strong> HTML, CSS JavaScript, React, Vite, Next, MongoDB, Scrum &
+              Kanban, Pair Programming, Node.js, Express, Figma, NoSQL, Git, REST
+            </li>
+            <li><strong>Capstone Project:</strong> ...</li>
+          </ul>
+          <strong>Bachelor of Science - Rheinische Fachhochschule Köln</strong>
+          <p>September 2014 - August 2017</p>
+          <p>Business Information Management</p>
+          <ul>
+            <li>
+              <strong>Bachelor Thesis:</strong> : Evaluation von Strategien für die Entwicklung
+              mobiler Applikationen in digitalen Ökosystemen
+            </li>
+            <li><strong>Minored in:</strong> Digital Business</li>
+          </ul>
+        </article>
+      </section>
+      <section id="projects" class="section-card"></section>
     </main>
-    <footer></footer>
+    <footer>
+      <a href="#">Terms and Privacy</a>
+      <a href="#">Imprint</a>
+      <a href="#">Jobs</a>
+    </footer>
   </body>
 </html>

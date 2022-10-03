@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text-color: white;
+  --loader-background: #005530;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5;
+  color: var(--text-color);
+  background-image: linear-gradient(to bottom, #0d3500, #063d15, #004425, #004c35, #005344);
+  background-repeat: no-repeat;
+}
