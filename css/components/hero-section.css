@@ -1,0 +1,22 @@
+.hero {
+  font-family: "Rubik Moonrocks", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+  text-align: center;
+  padding: 2rem;
+  padding-top: 20vh;
+}
+
+.hero video {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 100vh;
+}
+
+.hero__title {
+  font-size: 30vw;
+}

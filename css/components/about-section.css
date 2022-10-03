@@ -1,0 +1,23 @@
+.about__image {
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  z-index: 20;
+}
+
+.about__image-wrapper {
+  position: relative;
+}
+
+.about__image-wrapper::after {
+  content: "";
+  border: 2px solid #f89e58;
+  border-radius: 5px;
+  top: 20px;
+  left: 20px;
+  z-index: -1;
+  display: block;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}

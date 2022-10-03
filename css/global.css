@@ -9,6 +9,17 @@
 :root {
   --text-color: white;
   --loader-background: #005530;
+  --background-color: linear-gradient(
+    180deg,
+    #00000012 80vh,
+    #ebaa4c,
+    #ce735c,
+    #955463,
+    #543e50,
+    #252525
+  );
+
+  background-image: linear-gradient(to bottom, #e7a647, #ce735c, #955463, #543e50, #252525);
 }
 
 html {
@@ -18,6 +29,11 @@ html {
 body {
   line-height: 1.5;
   color: var(--text-color);
-  background-image: linear-gradient(to bottom, #0d3500, #063d15, #004425, #004c35, #005344);
+  background-image: var(--background-color);
   background-repeat: no-repeat;
+}
+
+main {
+  max-width: 38rem;
+  margin: auto;
 }

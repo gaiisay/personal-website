@@ -1,0 +1,32 @@
+.social__list {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.social__list__item {
+  display: inline-block;
+  padding: 10px;
+  animation: 2s ease;
+}
+.lsocial__list__item:hover {
+  color: white;
+  transform: translateY(-5%);
+}
+
+.social__list__item svg {
+  width: 20px;
+  height: 20px;
+  color: var(--text-color);
+}
+
+.social__list:after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 1px;
+  margin: 0px auto;
+  background-color: #ff8527;
+}

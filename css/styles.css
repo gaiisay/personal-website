@@ -2,5 +2,8 @@
 @import "./fonts.css";
 @import "./components/header.css";
 @import "./components/footer.css";
-@import "./components/loader.css";
 @import "./components/navigation.css";
+@import "./components/social-links.css";
+@import "./components/hero-section.css";
+@import "./components/about-section.css";
+@import "./components/projects-section.css";
