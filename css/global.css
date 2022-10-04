@@ -11,19 +11,18 @@
   --loader-background: #005530;
   --background-color: linear-gradient(
     180deg,
-    #00000012 80vh,
-    #ebaa4c,
+    transparent 100vh,
+    #ebaa4c 100vh,
     #ce735c,
     #955463,
     #543e50,
     #252525
   );
-
-  background-image: linear-gradient(to bottom, #e7a647, #ce735c, #955463, #543e50, #252525);
 }
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {

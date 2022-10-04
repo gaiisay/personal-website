@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  width: 100%;
   gap: 10px;
   text-align: center;
   padding: 2rem;
@@ -13,10 +14,19 @@
 .hero video {
   position: absolute;
   top: 0;
-  z-index: -1;
+  z-index: -100;
   height: 100vh;
+  width: 100vw;
+  object-fit: cover;
 }
 
 .hero__title {
-  font-size: 30vw;
+  font-size: clamp(10rem, 30vw, 20rem);
+}
+
+.hero__title-translation {
+  opacity: 40%;
+  font-size: clamp(5rem, 15vw, 10rem);
+  margin-top: -7rem;
+  z-index: 100;
 }
